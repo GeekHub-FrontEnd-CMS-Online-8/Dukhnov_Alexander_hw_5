@@ -1,0 +1,226 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+
+#wrapper {
+	min-width: 100%;
+  max-width: 1600px;
+}
+
+header {
+	width: 1600px;
+  height: 100px;
+  background-color: #f6f9f9;
+  position: relative;
+}
+
+.figure1 {
+	position: absolute;
+	display: inline-block;
+	width: 15px;
+  height: 15px;
+  background-color: #15a4fa;
+  margin-top: 32px;
+  margin-left: 253px;
+}
+
+.figure2 {
+	position: absolute;
+	display: inline-block;
+	width: 15px;
+  height: 15px;
+  background-color: #2d3950;
+  margin-top: 35px;
+  margin-left: 272px;
+}
+
+.figure3 {
+	position: absolute;
+	width: 15px;
+  height: 15px;
+  background-color: #2d3950;
+  margin-top: 51px;
+  margin-left: 253px;
+}
+
+.figure4 {
+	position: absolute;
+	width: 15px;
+  height: 15px;
+  background-color: #15a4fa;
+  margin-top: 54px;
+  margin-left: 272px;
+}
+
+.textfromheader {
+	position: absolute;
+	width: 104px;
+  height: 22px;
+  color: #2d3950;
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+ /* Text style for "STRICT" */
+  letter-spacing: 0.75px;
+  margin: 40px 1194px 38px 305px;
+}
+
+.fotoonfon {
+	position: relative;
+	width: 1600px;
+  height: 800px;
+  background-image: url(../images/Image1.png);
+	}
+
+h1 {
+  position: absolute;
+	width: 415px;
+  height: 89px;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 120px;
+  font-weight: 700;
+  line-height: 47px;
+  text-transform: uppercase;
+  /* Text style for "S, TRICT" */
+  letter-spacing: 3px;
+  margin: 217px 592px 494px 593px;
+}
+
+.hr {
+	position: absolute;
+	width: 600px;
+  height: 2px;
+  background-color: #15a4fa;
+  margin: 340px 500px 458px 500px;
+}
+
+.afterhr {
+	position: absolute;
+	width: 558px;
+  height: 17px;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 47px;
+  /* Text style for "STRICT is" */
+  letter-spacing: 0.5px;
+  margin: 382px 520px 401px 522px;
+}
+
+.border {
+	position: absolute;
+	width: 176px;
+	height: 54px;
+	border: 1px solid #15a4fa;
+	margin: 464px 712px 282px 712px;
+}
+
+.call {
+	width: 108px;
+  height: 13px;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 20px 35px 20px 35px;
+}
+
+.link {
+	position: absolute;
+	width: 20px;
+  height: 12px;
+  color: #ffffff;
+  font-family: "Font Awesome";
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 47px;
+  /* Text style for "," */
+  letter-spacing: 0.88px;
+  margin: 697px 790px 91px 790px;
+}
+
+.simple {
+	position: relative;
+	width: 1600px;
+  height: 340px;
+  background-color: #f6f9f9;
+}
+
+.title {
+	position: absolute;
+	width: 388px;
+  height: 37px;
+  color: #2d3950;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 400;
+  margin: 81px 605px 222px 610px;
+}
+
+.text {
+	position: absolute;
+	width: 1101px;
+  height: 81px;
+  color: #999999;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  margin: 149px 249px 110px 253px;
+}
+
+.list {
+	width: 1600px;
+  height: 340px;
+  background-color: #ffffff;
+}
+
+.imgmobile {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	border-radius: 2px;
+  background-color: #5fc3ff;
+  margin: 65px 1145px 175px 358px;
+}
+
+.mobile {
+	position: absolute;
+	width: 30px;
+  height: 50px;
+  text-shadow: 1px 1px 1px rgba(2, 2, 2, 0.4);
+  color: #ffffff;
+  font-family: "Font Awesome";
+  font-size: 70px;
+  font-weight: 400;
+  margin: 25px 35px;
+}
+
+.phone {
+	width: 249px;
+  height: 20px;
+  color: #2d3950;
+  font-family: Lato;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 32px 1071px 123px 283px;
+}
+
+.texta {
+	width: 255px;
+  height: 36px;
+  color: #999999;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  /* Text style for "STRICT has" */
+  letter-spacing: 0.38px;
+  margin: 239px 1067px 65px 281px;
+}
