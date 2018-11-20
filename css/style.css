@@ -3,13 +3,20 @@ margin: 0px;
 padding: 0px;
 }
 
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
 #wrapper {
 	min-width: 100%;
   max-width: 1600px;
 }
 
 header {
-	width: 1600px;
   height: 100px;
   background-color: #f6f9f9;
   position: relative;
@@ -65,17 +72,17 @@ header {
   text-transform: uppercase;
  /* Text style for "STRICT" */
   letter-spacing: 0.75px;
-  margin: 40px 1194px 38px 305px;
+  margin: 40px 1194px 0px 305px;
 }
 
 .fotoonfon {
 	position: relative;
-	width: 1600px;
   height: 800px;
+  width: 1600px;
   background-image: url(../images/Image1.png);
 	}
 
-h1 {
+.fotoonfon h1 {
   position: absolute;
 	width: 415px;
   height: 89px;
@@ -146,8 +153,8 @@ h1 {
 
 .simple {
 	position: relative;
-	width: 1600px;
   height: 340px;
+  width: 1600px;
   background-color: #f6f9f9;
 }
 
@@ -175,23 +182,21 @@ h1 {
   margin: 149px 249px 110px 253px;
 }
 
+/* Переделка 
 .list {
-	width: 1600px;
   height: 340px;
   background-color: #ffffff;
 }
 
 .imgmobile {
-	position: relative;
 	width: 100px;
 	height: 100px;
 	border-radius: 2px;
   background-color: #5fc3ff;
-  margin: 65px 1145px 175px 358px;
+  margin: 65px 1145px 0px 358px;
 }
 
 .mobile {
-	position: absolute;
 	width: 30px;
   height: 50px;
   text-shadow: 1px 1px 1px rgba(2, 2, 2, 0.4);
@@ -220,7 +225,181 @@ h1 {
   font-size: 15px;
   font-weight: 400;
   line-height: 22px;
-  /* Text style for "STRICT has" */
   letter-spacing: 0.38px;
   margin: 239px 1067px 65px 281px;
+}
+
+.imgplane {
+	width: 100px;
+  height: 100px;
+  border-radius: 2px;
+  background-color: #5fc3ff;
+  margin: 0px 752px 0px 751px;
+}
+
+.plane {
+	width: 40px;
+  height: 41px;
+  text-shadow: 1px 1px 1px rgba(2, 2, 2, 0.4);
+  color: #ffffff;
+  font-family: "Font Awesome";
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 30px 35px 30px 25px;
+} */
+.main_services{
+	width: 1600px;
+}
+
+.services_cards {
+	text-align: center;
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+.imgmobile {
+	width: 100px;
+  height: 100px;
+  border-radius: 2px;
+  background-color: #5fc3ff;
+  margin-top: 65px;
+  margin-left: 200px;
+}
+
+.mobile {
+	padding: 25px 35px;
+}
+
+.imagesplane {
+	width: 100px;
+  height: 100px;
+  border-radius: 2px;
+  background-color: #5fc3ff;
+  margin-top: 65px;
+  margin-left: 215px;
+}
+
+.plane {
+	padding: 29px 35px 30px 25px;
+}
+
+.imgruport {
+	width: 100px;
+  height: 100px;
+  border-radius: 2px;
+  background-color: #5fc3ff;
+  margin-top: 65px;
+  margin-left: 180px;
+}
+
+.ruport {
+	padding: 33px 29px 31px 29px;
+}
+
+.services_card h4 {
+	color: #2d3950;
+  font-family: Lato;
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 32px;
+  margin-bottom: 22px;
+}
+
+.services_card p {
+	color: #999999;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.38px;
+}
+
+.one {
+	padding-left: 0px;
+}
+
+.two {
+	padding-left: 0px;
+}
+
+.three {
+	padding-right: 20px;
+}
+
+.fotogallery {
+	text-align: center;
+	padding: 81px 0 116px 0;
+	width: 1600px;
+}
+
+.fotogallery h1 {
+	margin-bottom: 22px;
+	color: #2d3950;
+  font-family: Lato;
+  font-size: 41px;
+  font-weight: 400;
+  letter-spacing: 1.02px;
+}
+
+.fotogallery p {
+	margin-bottom: 80px;
+	color: #909090;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.38px;
+}
+
+.fotogallery img {
+	width: 360px;
+  height: 260px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+ /* блок формы*/
+.contact_form {
+	background-image: url(../images/Rectanglecopy@1X.png);
+	width: 1600px;
+	height: 700px;
+}
+ 
+
+
+.stay h2 {
+	text-align: center;
+	color: #ffffff;
+  font-family: Lato;
+  font-size: 41px;
+  font-weight: 400;
+}
+
+.stay p {
+	text-align: center;
+	color: #999999;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  padding-top: 21px;
+}
+
+.contact_wrapper {
+	width: 553px;
+	margin: 0 auto;
+}
+
+input[type=text], input[type=email] {
+  width: 553px;
+  height: 60px;
+}
+
+.form_inputs {
+	text-align: center;
+}
+
+textarea {
+	width: 553px;
+	height: 60px;
 }
