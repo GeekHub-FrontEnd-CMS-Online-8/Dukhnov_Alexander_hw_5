@@ -357,6 +357,10 @@ header {
   margin-left: 30px;
   margin-bottom: 30px;
 }
+
+
+
+
  /* блок формы*/
 .contact_form {
 	background-color: #2d3950;
@@ -432,7 +436,21 @@ input[type=text], input[type=email] {
 
 .button_block {
 	text-align: right;
-	
+	margin-left: 426px;
+}
+
+.btn {
+	width: 140px;
+  height: 45px;
+  border-radius: 2px;
+  border: 1px solid #15a4fa;
+  background-color: #2d3950;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 47px;
+  letter-spacing: 0.45px;
 }
 
 textarea {
@@ -441,10 +459,30 @@ textarea {
 	background-color: #2d3950;
 }
 
+.newsletter {
+	width: 149px;
+  height: 11px;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.38px;
+  padding-left: 16px;
+}
 
+.checkbox {
+	width: 15px;
+  height: 15px;
+  border-radius: 2px;
+  border: 1px solid #9aa1ab;
+  background-color: #f6f9f9;
+  
+}
 
-
-
+.checkboxi {
+  padding-top: 37px;
+  width: 200px;
+}
 
 
 footer {
