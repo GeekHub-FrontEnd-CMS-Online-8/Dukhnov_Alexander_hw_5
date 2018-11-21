@@ -146,7 +146,6 @@ header {
   font-size: 35px;
   font-weight: 400;
   line-height: 47px;
-  /* Text style for "," */
   letter-spacing: 0.88px;
   margin: 697px 790px 91px 790px;
 }
@@ -360,12 +359,15 @@ header {
 }
  /* блок формы*/
 .contact_form {
-	background-image: url(../images/Rectanglecopy@1X.png);
-	width: 1600px;
+	background-color: #2d3950;
 	height: 700px;
+	opacity: 0.9;
 }
  
-
+.section {
+	background-image: url(../images/Rectanglecopy@1X.png);
+	width: 1600px;
+  }
 
 .stay h2 {
 	text-align: center;
@@ -373,6 +375,7 @@ header {
   font-family: Lato;
   font-size: 41px;
   font-weight: 400;
+  padding-top: 74px;
 }
 
 .stay p {
@@ -382,24 +385,119 @@ header {
   font-size: 15px;
   font-weight: 400;
   line-height: 23px;
+  padding-bottom: 52px;
   padding-top: 21px;
 }
 
-.contact_wrapper {
+.contakt_wrapper {
 	width: 553px;
 	margin: 0 auto;
 }
 
-input[type=text], input[type=email] {
-  width: 553px;
-  height: 60px;
+.message {
+	color: #999999;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.38px;
+  padding-left: 20px;
+  padding-top: 25px;
 }
 
-.form_inputs {
-	text-align: center;
+.fullname {
+	color: #999999;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.38px;
+  padding-left: 20px;
+}
+
+.adress {
+	color: #999999;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.38px;
+  padding-left: 20px;
+}
+
+input[type=text], input[type=email] {
+  width: 540px;
+  height: 60px;
+  margin-bottom: 22px;
+  background-color: #2d3950;
+  opacity: 0.9;
+}
+
+.button_block {
+	text-align: right;
+	
 }
 
 textarea {
-	width: 553px;
-	height: 60px;
+	width: 542px;
+	height: 160px;
+	background-color: #2d3950;
 }
+
+
+
+
+
+
+
+footer {
+	width: 100%;
+	height: auto;
+}
+
+.social {
+	text-align: right;
+}
+
+.facebook, .twiter, .google, .in {
+	display: inline-block;
+	width: 40px;
+  height: 40px;
+  background-color: #15a4fa;
+  margin-top: 25px;
+}
+
+.imgf {
+  border-radius: 2px;
+  background-color: #15a4fa;
+  margin: 12px 14px 13px 14px;
+}
+
+.imgt {
+	border-radius: 2px;
+  background-color: #15a4fa;
+  margin: 14px 14px;
+}
+ 
+.imgg {
+	border-radius: 2px;
+  background-color: #15a4fa;
+  margin: 13px 13px 12px 13px;
+} 
+
+.imgi {
+	border-radius: 2px;
+  background-color: #15a4fa;
+  margin: 13px 13px 14px 13px;
+}
+
+footer p {
+	width: 168px;
+  height: 14px;
+  color: #999999;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.38px;
+  margin-top: 38px;
+  margin-left: 225px;
+  float: left;
+}
+
